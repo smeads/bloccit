@@ -17,7 +17,7 @@
       <div class="pull-right user-info">
         <% if current_user %>
           <%= image_tag avatar_url(current_user), class: :gravatar %>
-          <div class="pull-right"
+          <div class="pull-right">
             <%= current_user.name %> <br> <%= link_to "Sign Out", session_path(current_user), method: :delete %>
           </div>
         <% else %>
