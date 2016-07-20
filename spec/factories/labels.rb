@@ -1,8 +1,5 @@
 FactoryGirl.define do
    factory :labels do
-     topic
-     user
-     post
-     name
+     name "Label"
    end
  end
